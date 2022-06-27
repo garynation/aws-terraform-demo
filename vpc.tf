@@ -40,3 +40,10 @@ resource "aws_vpc" "aws-demo6" {
     Name = "${var.name}-aws-demo3"
   }
 }
+resource "aws_vpc" "aws-demo7" {
+  cidr_block = "10.0.0.0/16"
+
+  tags = {
+    Name = "${var.name}-aws-demo3"
+  }
+}
