@@ -5,4 +5,3 @@ resource "aws_vpc" "aws-demo" {
     Name = "${var.name}-aws-demo"
   }
 }
-}
